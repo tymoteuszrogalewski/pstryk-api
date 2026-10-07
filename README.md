@@ -17,7 +17,7 @@ Tak wykorzystuję te dane w [TymOS](https://github.com/tymoteuszrogalewski/tymos
 
 ![Ceny i zużycie godzinowe](docs/1-ceny-dzien.png)
 
-*Ceny godzinowe Pstryka (słupki: zielone tanie, czerwone drogie) i zużycie domu (linia) w ciągu doby.*
+*Ceny godzinowe Pstryka w ciągu doby (słupki: zielone tanie, czerwone drogie). Biała ciągła linia to ceny Pstryka na jutro, a zanim Pstryk je opublikuje — biała przerywana, czyli prognoza na podstawie TGE. Niebieska przerywana linia to zużycie domu.*
 
 ![Moc chwilowa na fazach](docs/2-moc-fazy.png)
 
