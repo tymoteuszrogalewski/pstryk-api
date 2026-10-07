@@ -19,13 +19,13 @@ Tak wykorzystuję te dane w [TymOS](https://github.com/tymoteuszrogalewski/tymos
 *Ceny godzinowe Pstryka w ciągu doby (słupki: zielone tanie, czerwone drogie). Biała ciągła linia to ceny Pstryka na jutro, a zanim Pstryk je opublikuje — biała przerywana, czyli prognoza na podstawie TGE. Niebieska przerywana linia to zużycie domu.*
 
 ![Moc chwilowa na fazach](docs/2-moc-fazy.png)<br>
-*Moc chwilowa na fazach L1/L2/L3 z progami i paskami pracy urządzeń (grzałki w buforze, pralka, suszarka, zmywarka).*
+*Moc chwilowa na fazach L1/L2/L3 z progami i paskami pracy urządzeń (grzałki w buforze, pralka, suszarka, zmywarka). Dane z lokalnego miernika — moduł [blebox-energy-meter](https://github.com/tymoteuszrogalewski/blebox-energy-meter).*
 
 ![Średnie ceny w miesiącu](docs/3-srednie-ceny.png)<br>
 *Średni uzyskany koszt kWh dzień po dniu na tle samej ceny energii z giełdy i porównanie z gwarancją ceny Pstryka (najwięcej mówi w ujęciu rocznym).*
 
 ![Napięcie na fazach](docs/4-napiecie.png)<br>
-*Napięcie na fazach L1/L2/L3 przez całą dobę.*
+*Napięcie na fazach L1/L2/L3 przez całą dobę. Dane z lokalnego miernika — moduł [blebox-energy-meter](https://github.com/tymoteuszrogalewski/blebox-energy-meter).*
 
 ![Bufor AI](docs/5-bufor-ai.png)<br>
 *Bufor ciepłej wody grzany grzałkami w najtańszych godzinach — decyzja co 5 minut na podstawie cen Pstryka i prognozy na jutro. Wykres daje pełny obraz pracy bufora: kiedy grzać, a kiedy jeszcze chwilę poczekać, jaki jest w danej chwili cel temperatury i co aktualnie pobiera ciepło z bufora. Widać ładowanie i rozładowanie, co ułatwia późniejsze modyfikacje algorytmu.*
