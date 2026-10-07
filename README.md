@@ -15,32 +15,25 @@ Mając te dane u siebie, możesz np.:
 
 Tak wykorzystuję te dane w [TymOS](https://github.com/tymoteuszrogalewski/tymos), moim systemie automatyki domowej:
 
-![Ceny i zużycie godzinowe](docs/1-ceny-dzien.png)
-
+![Ceny i zużycie godzinowe](docs/1-ceny-dzien.png)<br>
 *Ceny godzinowe Pstryka w ciągu doby (słupki: zielone tanie, czerwone drogie). Biała ciągła linia to ceny Pstryka na jutro, a zanim Pstryk je opublikuje — biała przerywana, czyli prognoza na podstawie TGE. Niebieska przerywana linia to zużycie domu.*
 
-![Moc chwilowa na fazach](docs/2-moc-fazy.png)
+![Moc chwilowa na fazach](docs/2-moc-fazy.png)<br>
+*Moc chwilowa na fazach L1/L2/L3 z progami i paskami pracy urządzeń (grzałki w buforze, pralka, suszarka, zmywarka).*
 
-*Moc chwilowa na fazach L1/L2/L3 z progami i paskami pracy urządzeń (grzałki, pralka, suszarka, zmywarka).*
+![Średnie ceny w miesiącu](docs/3-srednie-ceny.png)<br>
+*Średni uzyskany koszt kWh dzień po dniu na tle samej ceny energii z giełdy i porównanie z gwarancją ceny Pstryka (najwięcej mówi w ujęciu rocznym).*
 
-![Średnie ceny w miesiącu](docs/3-srednie-ceny.png)
-
-*Średni uzyskany koszt kWh dzień po dniu na tle samej ceny energii z giełdy.*
-
-![Napięcie na fazach](docs/4-napiecie.png)
-
+![Napięcie na fazach](docs/4-napiecie.png)<br>
 *Napięcie na fazach L1/L2/L3 przez całą dobę.*
 
-![Bufor AI](docs/5-bufor-ai.png)
+![Bufor AI](docs/5-bufor-ai.png)<br>
+*Bufor ciepłej wody grzany grzałkami w najtańszych godzinach — decyzja co 5 minut na podstawie cen Pstryka i prognozy na jutro. Wykres daje pełny obraz pracy bufora: kiedy grzać, a kiedy jeszcze chwilę poczekać, jaki jest w danej chwili cel temperatury i co aktualnie pobiera ciepło z bufora. Widać ładowanie i rozładowanie, co ułatwia późniejsze modyfikacje algorytmu.*
 
-*Bufor ciepłej wody grzany grzałkami w najtańszych godzinach — decyzja co 5 minut na podstawie cen Pstryka i prognozy na jutro.*
-
-![Koszt energii w roku: Pstryk vs Energa G11 vs G12r](docs/6-koszt-taryfy.png)
-
+![Koszt energii w roku: Pstryk vs Energa G11 vs G12r](docs/6-koszt-taryfy.png)<br>
 *Rzeczywiste zużycie przeliczone przez trzy warianty: ceny dynamiczne Pstryk, taryfa Energa G11 i G12r — miesiąc po miesiącu.*
 
-![Odczyty Pstryk vs Energa-Operator](docs/7-pstryk-vs-energa.png)
-
+![Odczyty Pstryk vs Energa-Operator](docs/7-pstryk-vs-energa.png)<br>
 *Porównanie pomiarów: Pstryk i licznik operatora (moduł [energa-mojlicznik](https://github.com/tymoteuszrogalewski/energa-mojlicznik)).*
 
 *English: hourly dynamic electricity prices, usage and costs from the Polish supplier Pstryk API into MySQL/MariaDB or CSV.*
