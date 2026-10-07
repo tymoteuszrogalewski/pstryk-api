@@ -11,6 +11,9 @@ Mając te dane u siebie, możesz np.:
 - zrobić offline **symulację rachunków** i porównać ceny dynamiczne z taryfami G11 / G12,
 - **porównać pomiary** Pstryka z licznikiem operatora (np. [energa-mojlicznik](https://github.com/tymoteuszrogalewski/energa-mojlicznik)).
 
+![Miernik Pstryk w rozdzielnicy](docs/0-miernik.jpg)<br>
+*Miernik Pstryk (BleBox, 3 fazy) w rozdzielnicy, na szynie DIN. Dane z niego trafiają do API Pstryka; lokalny odczyt co kilka sekund daje moduł [blebox-energy-meter](https://github.com/tymoteuszrogalewski/blebox-energy-meter).*
+
 ### Przykład zastosowania — TymOS
 
 Tak wykorzystuję te dane w [TymOS](https://github.com/tymoteuszrogalewski/tymos), moim systemie automatyki domowej:
