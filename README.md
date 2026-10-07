@@ -11,6 +11,38 @@ Mając te dane u siebie, możesz np.:
 - zrobić offline **symulację rachunków** i porównać ceny dynamiczne z taryfami G11 / G12,
 - **porównać pomiary** Pstryka z licznikiem operatora (np. [energa-mojlicznik](https://github.com/tymoteuszrogalewski/energa-mojlicznik)).
 
+### Przykład zastosowania — TymOS
+
+Tak wykorzystuję te dane w [TymOS](https://github.com/tymoteuszrogalewski/tymos), moim systemie automatyki domowej:
+
+![Ceny i zużycie godzinowe](docs/1-ceny-dzien.png)
+
+*Ceny godzinowe Pstryka (słupki: zielone tanie, czerwone drogie) i zużycie domu (linia) w ciągu doby.*
+
+![Moc chwilowa na fazach](docs/2-moc-fazy.png)
+
+*Moc chwilowa na fazach L1/L2/L3 z progami i paskami pracy urządzeń (grzałki, pralka, suszarka, zmywarka).*
+
+![Średnie ceny w miesiącu](docs/3-srednie-ceny.png)
+
+*Średni uzyskany koszt kWh dzień po dniu na tle samej ceny energii z giełdy.*
+
+![Napięcie na fazach](docs/4-napiecie.png)
+
+*Napięcie na fazach L1/L2/L3 przez całą dobę.*
+
+![Bufor AI](docs/5-bufor-ai.png)
+
+*Bufor ciepłej wody grzany grzałkami w najtańszych godzinach — decyzja co 5 minut na podstawie cen Pstryka i prognozy na jutro.*
+
+![Koszt energii w roku: Pstryk vs Energa G11 vs G12r](docs/6-koszt-taryfy.png)
+
+*Rzeczywiste zużycie przeliczone przez trzy warianty: ceny dynamiczne Pstryk, taryfa Energa G11 i G12r — miesiąc po miesiącu.*
+
+![Odczyty Pstryk vs Energa-Operator](docs/7-pstryk-vs-energa.png)
+
+*Porównanie pomiarów: Pstryk i licznik operatora (moduł [energa-mojlicznik](https://github.com/tymoteuszrogalewski/energa-mojlicznik)).*
+
 *English: hourly dynamic electricity prices, usage and costs from the Polish supplier Pstryk API into MySQL/MariaDB or CSV.*
 
 <h3>Co potrafi:<br>ceny godzinowe (dziś + jutro) · tanie / drogie godziny · pobór i oddanie (PV) · pełne koszty · cała historia · CSV albo baza</h3>
